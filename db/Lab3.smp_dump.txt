@@ -1,0 +1,14 @@
+
+State Machine - |lab3|bonus_state
+Name bonus_state.complete bonus_state.hypotenuse bonus_state.height bonus_state.bottom bonus_state.setting 
+bonus_state.setting 0 0 0 0 0 
+bonus_state.bottom 0 0 0 1 1 
+bonus_state.height 0 0 1 0 1 
+bonus_state.hypotenuse 0 1 0 0 1 
+bonus_state.complete 1 0 0 0 1 
+
+State Machine - |lab3|line_draw:line_component|state
+Name state.finished state.plotting state.ready 
+state.ready 0 0 0 
+state.plotting 0 1 1 
+state.finished 1 0 1 
